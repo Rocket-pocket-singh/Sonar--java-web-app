@@ -68,10 +68,11 @@ public class MavenWrapperDownloader {
                     if(mavenWrapperPropertyFileInputStream != null) {
                         mavenWrapperPropertyFileInputStream.close();
                     }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                    // Ignore ...
                 }
+                // catch (IOException e) {
+                //     e.printStackTrace();
+                //     // Ignore ...
+                // }
             }
         }
         System.out.println("- Downloading from: " + url);
